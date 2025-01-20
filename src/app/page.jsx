@@ -184,7 +184,7 @@ export default async function Home() {
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
             We are a development Brite working at the intersection of design
-            and technology. It’s a really busy intersection though — a lot of
+            and technology. It’s a really though — a lot of
             our staff have been involved in hit and runs.
           </p>
         </FadeIn>
