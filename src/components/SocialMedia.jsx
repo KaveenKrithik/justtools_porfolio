@@ -53,7 +53,7 @@ export const socialMediaProfiles = [
   { title: 'X', href: 'https://x.com/justtoolslab', icon: FacebookIcon },
   { title: 'Instagram', href: 'https://www.instagram.com/juststudio_justtools', icon: InstagramIcon },
   { title: 'GitHub', href: 'https://github.com/just-tools-lab', icon: GitHubIcon },
-  { title: 'Dribbble', href: 'https://dribbble.com', icon: DribbbleIcon },
+  { title: 'Pinterest', href: 'https://in.pinterest.com/justtoolsl/', icon: DribbbleIcon },
 ]
 
 export function SocialMedia({ className, invert = false }) {
