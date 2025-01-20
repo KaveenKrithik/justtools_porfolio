@@ -46,50 +46,26 @@ const team = [
     title: 'Team',
     people: [
       {
-        name: 'Chelsea Hagon',
+        name: 'Harsha',
         role: 'Senior Developer',
         image: 'bg-gradient-to-r from-green-400 to-blue-500',
       },
       {
-        name: 'Emma Dorsey',
-        role: 'Senior Designer',
-        image: 'bg-gradient-to-r from-pink-500 to-yellow-500',
-      },
-      {
-        name: 'Leonard Krasner',
-        role: 'VP, User Experience',
-        image: 'bg-gradient-to-r from-purple-400 via-pink-500 to-red-500',
-      },
-      {
-        name: 'Blake Reid',
-        role: 'Junior Copywriter',
-        image: 'bg-gradient-to-r from-yellow-400 to-red-500',
-      },
-      {
-        name: 'Kathryn Murphy',
-        role: 'VP, Human Resources',
-        image: 'bg-gradient-to-r from-blue-400 to-purple-500',
-      },
-      {
-        name: 'Whitney Francis',
-        role: 'Content Specialist',
-        image: 'bg-gradient-to-r from-green-400 to-blue-500',
-      },
-      {
-        name: 'Jeffrey Webb',
-        role: 'Account Coordinator',
-        image: 'bg-gradient-to-r from-pink-500 to-yellow-500',
-      },
-      {
-        name: 'Benjamin Russel',
+        name: 'Tharun',
         role: 'Senior Developer',
+        image: 'bg-gradient-to-r from-pink-500 to-yellow-500',
+      },
+      {
+        name: 'John',
+        role: 'SDE',
         image: 'bg-gradient-to-r from-purple-400 via-pink-500 to-red-500',
       },
       {
-        name: 'Angela Fisher',
-        role: 'Front-end Developer',
+        name: 'Kaveen',
+        role: 'SDE',
         image: 'bg-gradient-to-r from-yellow-400 to-red-500',
       },
+     
     ],
   },
 ]
