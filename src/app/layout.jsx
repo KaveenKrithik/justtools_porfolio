@@ -5,7 +5,7 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s - Brite',
-    default: 'Brite - Award winning developer Brite based in Denmark',
+    default: 'Just Tools',
   },
 }
 
