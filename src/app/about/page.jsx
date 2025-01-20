@@ -188,31 +188,29 @@ export default async function About() {
 
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro eyebrow="About us" title="Empowering Your Success with Quality Tools">
         <p>
           We believe that our strength lies in our collaborative approach, which
           puts our clients at the center of everything we do.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Brite was started by three friends who noticed that developer
-            Brites were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
+            Just Tools was founded with the vision of providing high-quality tools and software
+            to professionals and hobbyists alike. Our commitment to excellence and customer satisfaction
+            sets us apart in the industry.
           </p>
           <p>
-            At Brite, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
+            At Just Tools, we’re more than just a team — we’re a community. We strive to create a supportive
+            and inclusive environment where everyone can thrive. Our dedication to innovation and quality
+            ensures that our customers receive the best products and services available.
           </p>
         </div>
       </PageIntro>
       <Container className="mt-16">
         <StatList>
-          <StatListItem value="35" label="Underpaid employees" />
-          <StatListItem value="52" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
+          <StatListItem value="4" label="Working employees" />
+          <StatListItem value="52" label="Clients satisfied" />
+          <StatListItem value="$25k" label="Revenue Collected" />
         </StatList>
       </Container>
 
