@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 import { Border } from '@/components/Border'
 import { ContactSection } from '@/components/ContactSection'
 import { Container } from '@/components/Container'
@@ -9,18 +7,6 @@ import { PageIntro } from '@/components/PageIntro'
 import { PageLinks } from '@/components/PageLinks'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StatList, StatListItem } from '@/components/StatList'
-import imageAngelaFisher from '@/images/team/angela-fisher.jpg'
-import imageBenjaminRussel from '@/images/team/benjamin-russel.jpg'
-import imageBlakeReid from '@/images/team/blake-reid.jpg'
-import imageChelseaHagon from '@/images/team/chelsea-hagon.jpg'
-import imageDriesVincent from '@/images/team/dries-vincent.jpg'
-import imageEmmaDorsey from '@/images/team/emma-dorsey.jpg'
-import imageJeffreyWebb from '@/images/team/jeffrey-webb.jpg'
-import imageKathrynMurphy from '@/images/team/kathryn-murphy.jpg'
-import imageLeonardKrasner from '@/images/team/leonard-krasner.jpg'
-import imageLeslieAlexander from '@/images/team/leslie-alexander.jpg'
-import imageMichaelFoster from '@/images/team/michael-foster.jpg'
-import imageWhitneyFrancis from '@/images/team/whitney-francis.jpg'
 import { loadArticles } from '@/lib/mdx'
 
 function Culture() {
@@ -57,72 +43,52 @@ function Culture() {
 
 const team = [
   {
-    title: 'Leadership',
-    people: [
-      {
-        name: 'Leslie Alexander',
-        role: 'Co-Founder / CEO',
-        image: { src: imageLeslieAlexander },
-      },
-      {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        image: { src: imageMichaelFoster },
-      },
-      {
-        name: 'Dries Vincent',
-        role: 'Partner & Business Relations',
-        image: { src: imageDriesVincent },
-      },
-    ],
-  },
-  {
     title: 'Team',
     people: [
       {
         name: 'Chelsea Hagon',
         role: 'Senior Developer',
-        image: { src: imageChelseaHagon },
+        image: 'bg-gradient-to-r from-green-400 to-blue-500',
       },
       {
         name: 'Emma Dorsey',
         role: 'Senior Designer',
-        image: { src: imageEmmaDorsey },
+        image: 'bg-gradient-to-r from-pink-500 to-yellow-500',
       },
       {
         name: 'Leonard Krasner',
         role: 'VP, User Experience',
-        image: { src: imageLeonardKrasner },
+        image: 'bg-gradient-to-r from-purple-400 via-pink-500 to-red-500',
       },
       {
         name: 'Blake Reid',
         role: 'Junior Copywriter',
-        image: { src: imageBlakeReid },
+        image: 'bg-gradient-to-r from-yellow-400 to-red-500',
       },
       {
         name: 'Kathryn Murphy',
         role: 'VP, Human Resources',
-        image: { src: imageKathrynMurphy },
+        image: 'bg-gradient-to-r from-blue-400 to-purple-500',
       },
       {
         name: 'Whitney Francis',
         role: 'Content Specialist',
-        image: { src: imageWhitneyFrancis },
+        image: 'bg-gradient-to-r from-green-400 to-blue-500',
       },
       {
         name: 'Jeffrey Webb',
         role: 'Account Coordinator',
-        image: { src: imageJeffreyWebb },
+        image: 'bg-gradient-to-r from-pink-500 to-yellow-500',
       },
       {
         name: 'Benjamin Russel',
         role: 'Senior Developer',
-        image: { src: imageBenjaminRussel },
+        image: 'bg-gradient-to-r from-purple-400 via-pink-500 to-red-500',
       },
       {
         name: 'Angela Fisher',
         role: 'Front-end Developer',
-        image: { src: imageAngelaFisher },
+        image: 'bg-gradient-to-r from-yellow-400 to-red-500',
       },
     ],
   },
@@ -149,12 +115,7 @@ function Team() {
                   {group.people.map((person) => (
                     <li key={person.name}>
                       <FadeIn>
-                        <div className="group relative overflow-hidden rounded-3xl bg-neutral-100">
-                          <Image
-                            alt=""
-                            {...person.image}
-                            className="h-96 w-full object-cover grayscale transition duration-500 motion-safe:group-hover:scale-105"
-                          />
+                        <div className={`group relative overflow-hidden rounded-3xl ${person.image} h-96 w-full`}>
                           <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black to-black/0 to-40% p-6">
                             <p className="font-display text-base/6 font-semibold tracking-wide text-white">
                               {person.name}

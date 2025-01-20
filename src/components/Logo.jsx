@@ -52,10 +52,16 @@ export function Logo({
         invert={invert}
         filled={filled}
       />
-      <path
-        className={invert ? 'fill-white' : 'fill-neutral-950'}
-        d="M32 0h98v32H32z" 
-      />
+      <text
+        x="32"
+        y="24"
+        className={clsx(
+          'font-display font-semibold text',
+          invert ? 'text-white' : 'text-neutral-950',
+        )}
+      >
+        Just Tools
+      </text>
     </svg>
   )
 }
