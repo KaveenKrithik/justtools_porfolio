@@ -50,8 +50,19 @@ function PinterestIcon(props) {
   )
 }
 
+function XIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M23.954 4.569c-.885.392-1.83.656-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.949.555-2.001.959-3.127 1.184-.896-.957-2.173-1.555-3.591-1.555-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124-4.087-.205-7.713-2.165-10.141-5.144-.423.722-.666 1.561-.666 2.457 0 1.697.865 3.194 2.181 4.073-.803-.026-1.56-.247-2.228-.616v.061c0 2.367 1.684 4.342 3.918 4.788-.41.111-.84.171-1.285.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.6 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 14.002-7.496 14.002-13.986 0-.21 0-.423-.015-.634.961-.695 1.8-1.562 2.46-2.549z"
+      />
+    </svg>
+  )
+}
 export const socialMediaProfiles = [
-  { title: 'X', href: 'https://x.com/justtoolslab', icon: FacebookIcon },
+  { title: 'X', href: 'https://x.com/justtoolslab', icon: XIcon },
   { title: 'Instagram', href: 'https://www.instagram.com/juststudio_justtools', icon: InstagramIcon },
   { title: 'GitHub', href: 'https://github.com/just-tools-lab', icon: GitHubIcon },
   { title: 'Pinterest', href: 'https://in.pinterest.com/justtoolsl/', icon: PinterestIcon },
