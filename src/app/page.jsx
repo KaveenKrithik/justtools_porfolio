@@ -180,12 +180,11 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Award-winning development Brite based in Denmark.
+            Just Tools
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are a development Brite working at the intersection of design
-            and technology. It’s a really busy intersection though — a lot of
-            our staff have been involved in hit and runs.
+          We are Just Tools, a dedicated team delivering high-quality tools and exceptional services, 
+          all under one trusted name.
           </p>
         </FadeIn>
       </Container>
@@ -198,9 +197,8 @@ export default async function Home() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Phobia', logo: logoPhobiaDark }}
       >
-        The team at Brite went above and beyond with our onboarding, even
-        finding a way to access the user’s microphone without triggering one of
-        those annoying permission dialogs.
+        The team at Just Tools went above and beyond during our onboarding, 
+        streamlining processes seamlessly without any unnecessary interruptions or hassles
       </Testimonial>
 
       <Services />
