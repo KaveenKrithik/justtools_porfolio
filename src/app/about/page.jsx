@@ -146,8 +146,8 @@ export default async function About() {
       <Container className="mt-16">
         <StatList>
           <StatListItem value="4" label="Working employees" />
-          <StatListItem value="52" label="Clients satisfied" />
-          <StatListItem value="$25k" label="Revenue Collected" />
+          <StatListItem value="0" label="Clients satisfied" />
+          <StatListItem value="0" label="Revenue Collected" />
         </StatList>
       </Container>
 
